@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="68.872">
+    <testcase classname="AddEmployee" name="Verify Employee Details Added successfully" time="68.754">
+        <system-out>
+            <![CDATA[Given User launch chrome browser............................................passed
+When user opens url.........................................................passed
+And user enters username as "Admin" and password as "admin123"..............passed
+And click on Login button...................................................passed
+Then After logging in, mouse hover to PIM and click.........................passed
+And In the PIM page, click on Add Employee..................................passed
+And Add employees using Data Driven Testing from a csv sheet................passed
+And After Adding go to the Employee List page...............................passed
+Then Scroll and look for the employees added and verify with name...........passed
+Then Logout from the dashboard..............................................passed
+And close browser...........................................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
